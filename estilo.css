@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    padding-left: 21px;
+    background-color: #E5E5E5;
+}
+
+.logo {
+    height: 92px;
+    width: 100%;
+    background-color: #cf2b2b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 21px;
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+.logo h1 {
+    font-size: 44px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.logo h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.corpo{
+    margin: 92px 0;
+    background-color: #E5E5E5;
+}
+
+.prato{
+    margin-bottom: 16px;
+    padding-top: 20px;
+}
+
+.prato h1 {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    color: #333333;
+}
+
+.comidas {
+    overflow-x: scroll;
+    display: flex;
+    background-color: #E5E5E5;
+}
+
+.comida {
+    background-color: #ffffff;
+    width: 172px;
+    height: 216px;
+    margin-right:16px;
+    display: flex;
+    padding: 14px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.comida img {
+    width: 144px;
+    height: 87px;
+}
+
+.comida h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+}
+
+.comida h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #a6a6a6;
+}
+
+.comida h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.agora{
+    margin-top:20px;
+    margin-bottom:16px;
+}
+
+.agora h1 {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    color: #333333;
+}
+
+.bebidas {
+    overflow-x: scroll;
+    display: flex;
+    background-color: #E5E5E5;
+}
+
+.bebida {
+    background-color: #ffffff;
+    width: 172px;
+    height: 202px;
+    margin-right:16px;
+    display: flex;
+    padding: 14px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.bebida img {
+    width: 144px;
+    height: 87px;
+}
+
+.bebida h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+}
+
+.bebida h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #a6a6a6;
+}
+
+.bebida h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.fim{
+    margin-top:20px;
+    margin-bottom:16px;
+}
+
+.fim h1 {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    color: #333333;
+}
+
+.sobremesas {
+    overflow-x: scroll;
+    display: flex;
+    background-color: #E5E5E5;
+}
+
+.sobremesa {
+    background-color: #ffffff;
+    margin-right:16px;
+    margin-bottom: 20px;
+    width: 172px;
+    height: 197px;
+    display: flex;
+    padding: 14px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.sobremesa img {
+    width: 144px;
+    height: 82px;
+}
+
+.sobremesa h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+}
+
+.sobremesa h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #a6a6a6;
+}
+
+.sobremesa h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+}
+
+.confirmar {
+    background-color: #ffffff;
+    width: 100%;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.botao-cinza {
+    height: 61px;
+    background-color: #cbcbcb;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.botao-cinza h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color:#ffffff;
+   
+
+}
